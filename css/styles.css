@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+}
+header, footer {
+  text-align: center;
+}
+h1 {
+  color: #0e2452;
+}
+.section {
+  margin-bottom: 30px;
+}
+.section-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.profile img {
+  width: 113px;
+  height: 113px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+ul, ol {
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 10px;
+}
+.timeline li::before {
+  content: '\2022';
+  color: #0e2452;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
